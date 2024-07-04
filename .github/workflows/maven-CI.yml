@@ -1,8 +1,9 @@
-name: Maven  CI/CD
+name: Maven CI/CD
 
 on:
   push:
-    branches: [ Main ]
+    branches:
+      - '**'
 
 jobs:
   test_and_build:
